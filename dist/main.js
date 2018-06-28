@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  This is what I'm all about.  <a (click)=\"sendMeHome()\"><strong>Take me back</strong></a>.\n</p>\n"
+module.exports = "<p>\n  This is what I'm all about.  <a (click)=\"sendMeHome()\"><strong>Take me back</strong></a>.\n  <br />\n  View Github repository <a href=\"https://github.com/jasonleewilson/ng5\">here</a>\n</p>\n"
 
 /***/ }),
 
