@@ -152,7 +152,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ul>\n  <li><a routerLink=\"\">Home</a></li>\n  <li><a routerLink=\"about/48\">About</a></li>\n</ul>\n\n<router-outlet></router-outlet>\n"
+module.exports = "<ul>\n  <li><a routerLink=\"\">Home</a></li>\n  <li><a routerLink=\"about\">About</a></li>\n</ul>\n\n<app-home></app-home>\n\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
