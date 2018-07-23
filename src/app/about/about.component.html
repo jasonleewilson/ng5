@@ -1,5 +1,13 @@
 <p>
   This is what I'm all about.  <a (click)="sendMeHome()"><strong>Take me back</strong></a>.
   <br />
-  View Github repository <a href="https://github.com/jasonleewilson/ng5">here</a>
+  <br />
+  <a href="https://github.com/jasonleewilson/ng5" target="_blank"><strong>View</strong></a> Github repository.
 </p>
+
+<ul>
+  <h1>Goals:</h1>
+  <li *ngFor="let goal of goals">
+    {{ goal }}
+  </li>
+</ul>
