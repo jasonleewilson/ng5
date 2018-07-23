@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { trigger,style,transition,animate,keyframes,query,stagger } from '@angular/animations';
-//import { SSL_OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG } from 'constants';
+import { trigger, style, transition, animate, keyframes, query, stagger } from '@angular/animations';
+// import { SSL_OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG } from 'constants';
 
 
 @Component({
@@ -18,7 +18,7 @@ import { trigger,style,transition,animate,keyframes,query,stagger } from '@angul
             style({opacity: .5, transform: 'translateY(35px)', offset: .3}),
             style({opacity: 1, transform: 'translateY(0)', offset: 1}),
           ]))]), {optional: true}),
-        
+
         query(':leave', stagger('300ms', [
           animate('.6s ease-in', keyframes([
             style({opacity: 1, transform: 'translateY(0)', offset: 0}),
