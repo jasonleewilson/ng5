@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "^6.0.9",
     "@angular/router": "^6.0.9",
     "core-js": "^2.5.4",
+    "gulp": "^4.0.2",
     "hoek": "^5.0.3",
     "rxjs": "^6.2.2",
     "rxjs-compat": "^6.2.2",
